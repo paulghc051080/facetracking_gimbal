@@ -22,7 +22,7 @@ jobs:
       - name: Push combined content
         run: |
           git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config user.email "paulghc051080@gmail.com"
           git add .
           git commit -m "Add projectA and projectB"
           git push
