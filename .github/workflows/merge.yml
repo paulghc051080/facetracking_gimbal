@@ -13,7 +13,7 @@ jobs:
 
       - name: Clone Repo A
         run: |
-          git https://github.com/paulghc051080/embedded_cw2_stm32.git projectA
+          git clone https://github.com/paulghc051080/embedded_cw2_stm32.git projectA
 
       - name: Clone Repo B
         run: |
