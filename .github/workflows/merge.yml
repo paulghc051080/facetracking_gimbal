@@ -26,3 +26,5 @@ jobs:
           git add .
           git commit -m "Add projectA and projectB"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
